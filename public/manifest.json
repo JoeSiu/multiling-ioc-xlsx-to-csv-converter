@@ -1,0 +1,14 @@
+{
+    "inputFile": "./public/source/Multiling IOC 14.1.xlsx",
+    "outputFilename": "Multiling IOC 14.1",
+    "outputDir": "./public/generated",
+    "filter": {
+        "Order": "order",
+        "Family": "family",
+        "IOC_14.1": "scientific",
+        "English": "en",
+        "Chinese": "zh-hans",
+        "Chinese (Traditional)": "zh-hant",
+        "Japanese": "ja"
+    }
+}
