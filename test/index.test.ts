@@ -1,6 +1,6 @@
 import { expect, it } from "vitest";
-import { convert } from "../src";
+import { generate } from "../src";
 
-it("convert", async () => {
-  expect(async () => await convert()).not.toThrowError();
+it("generate", async () => {
+  expect(async () => await generate()).not.toThrowError();
 });
