@@ -1,12 +1,12 @@
 import { convertXlsxToCsv } from "xlsx-to-csv-ts";
-import data from "../public/manifest.json";
+import { options } from "../public/options";
 
 export async function generate() {
   const result = await convertXlsxToCsv({
-    inputFile: data.inputFile,
-    outputFilename: data.outputFilename,
-    outputDir: data.outputDir,
-    filter: data.filter,
+    inputFile: options.inputFile,
+    outputFilename: options.outputFilename,
+    outputDir: options.outputDir,
+    filter: options.filter,
   });
 
   console.log(result.outputPath);
